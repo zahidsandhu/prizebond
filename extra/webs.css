@@ -1,0 +1,315 @@
+div.pagination {
+	font-family:Verdana,Tahoma,Arial,Helvetica,Sans-Serif;
+	font-size: 13px;
+	padding:4px 6px 4px 0;
+	background-color:#fff;
+	color:#313031;
+	padding:10px;
+	margin-top:10px;
+	margin-bottom:30px;
+	border-radius:10px;
+	width:620px;
+	margin-left:150px;
+}
+div.pagination a {
+	color:#0030ce;
+	text-decoration:none;
+	padding:5px 6px 4px 5px;
+	margin:0 3px 0 3px;
+	border:1px solid #b7d8ee;
+	display:inline-block;
+}
+/*.search_page table tr td {*/
+/*    padding: 10px;*/
+/*    border-bottom: 1px solid #ccc;*/
+/*    font-size: 13px;*/
+/*    font-weight: bold;*/
+/*}*/
+/*.search_page table tr td select {*/
+/*    width: 150px;*/
+/*    height: 35px;*/
+/*    border: 1px solid #ccc;*/
+/*    font-size: 14px;*/
+/*    font-family: arial;*/
+/*}*/
+div.pagination a:hover, div.pagination a:active {
+	color:#0066a7;
+	border:1px solid #b7d8ee;
+	background-color:#d2eaf6;
+}
+div.pagination span.current {
+	padding:5px 6px 4px 5px;
+	margin:0 3px 0 3px;
+	border:1px solid #b7d8ee;
+	font-weight:bold;
+	color:#444444;
+	background-color:#d2eaf6;
+}
+div.pagination span.disabled {
+	display:none;
+}
+.submit{background: url('../extra/horizont.png') repeat-x 0 -931px;
+	margin: 0 8px;
+	padding: 0;
+	font:bold 16px/35px Arial;
+	color:#fff;
+	text-decoration: none;
+	padding:0 7px;
+	height:36px;
+	background: url('../extra/horizont.png') repeat-x 0 -54px;
+	white-space:nowrap;
+	border:1px solid #3366FF;
+	border-radius:5px;
+	margin-top:10px;
+	width:120px;
+	cursor:pointer;
+	}
+.users {border-radius:10px;}
+.users .name img{width:30px; height:30px;margin-right:10px;}
+.users .name{background-color:#fff;padding:10px;font-size:13px;font-weight:bold;text-align:left;}
+.users .date{margin-top:6px;margin-bottom:6px;}
+.users .date .month{display:block;background-color:#00CC00;padding:3px;width:150px;color:#FFFFFF;font-family:Arial, Helvetica, sans-serif;font-size:16px;font-weight:bold;border-top-left-radius:6px;border-top-right-radius:6px;}
+.users .date .day{padding:3px;width:150px;background-color:#F2F2F2;display:block;font-family:impact;font-size:48px;}
+.users .time {text-align:left;padding:5px;background-color:#FFFFFF;}
+.users .time img{width:30px; height:30px;margin-right:10px;}
+.posting{
+text-align:center;background-color:#FFFFFF;
+-ms-word-break: break-all;
+     word-break: break-all;
+
+     // Non standard for webkit
+     word-break: break-word;
+
+-webkit-hyphens: auto;
+   -moz-hyphens: auto;
+        hyphens: auto;
+		border-radius:10px;
+		padding:5px; border:thick solid #33CCFF;
+		}
+.posting .morepost {padding:5px;background-color:#66CCFF;margin-bottom:10px;}
+.posting .morepost a{text-decoration:none;color:#333333;font-weight:bold;}
+.file {border:1px solid #ccc;padding:10px;width:300px;color:#990000;border-radius:10px;cursor:pointer;}
+.panel_menu{width:200px;background-color:#FFFFFF;padding-bottom:15px;}
+	.panel_menu, .panel_menu li {list-style:none;}
+	.panel_menu li{font-size:13px;padding-left:5px;}
+	.panel_menu li.caption{background: url('../extra/horizont.png') repeat-x 0 -931px;
+	margin: 0 8px;
+	padding: 0;
+	font:bold 16px Arial;
+	color:#fff;
+	text-decoration: none;
+	padding:5px;
+	background: url('../extra/horizont.png') repeat-x 0 -54px;
+	white-space:nowrap;
+	border:1px solid #3366FF;
+	border-radius:5px;
+	margin-top:10px;
+	width:170px;margin-bottom:10px;
+	cursor:pointer;}
+	.panel_menu li a {text-decoration:none;display:block;background-color:#F2F2F2;margin-bottom:1px;padding:5px;width:180px;color:#0066FF;}
+	.panel_menu li a:hover{color:#990000;}
+ .allpost{border:1px solid #fff;margin-top:15px;}
+ .allpost tr td{color:#FFFFFF; font-size:13px;padding:5px;border-bottom:1px solid #33CCFF;}
+.allpost tr.tbhead td{background-color:#CCCCCC;padding:10px;color:#000000;font-size:16px;}
+.allpost tr td.action a{text-decoration:none;display:block;background-color:#F2F2F2;margin-bottom:1px;padding:5px;width:40px;color:#0066FF;float:left;margin-left:5px;text-align:center;border-radius:5px;font-size:12px;font-weight:bold;}
+.error_message{background-color:#FEE4E0;color:#990000;line-height:22px;padding:10px;margin:5px;border:2px solid #990000}
+	.error_message p{color:#CC0000;}
+	.success_message{background-color:#EFFCC7;color:darkgreen;line-height:22px;padding:10px;margin:5px;border:2px solid darkgreen;}
+	.success_message p{color:#009900;}
+.cmenu, .cmenu li{margin:0px;list-style:none;}
+.cmenu li{width:150px;}
+.cmenu li ul{display:none;position:absolute;}
+.cmenu li:hover ul{display:block;background-color:#FFFFFF;border-top:2px solid #ccc;}
+.cmenu li a{text-decoration:none;display:block;padding:5px;font-size:13px;border-bottom:1px solid #ccc;color:#0000CC;}
+.cmenu li a.main{display:block;text-align:center;background-color:#0066FF;color:#FFFFFF;padding:5px;border-radius:7px;font-size:20px;margin-top:10px;}
+.photo {background-color:#FFFFFF;border-top:2px solid #CCCCCC;}
+.photo img{width:150px;height:150px;}
+.winner{margin-bottom:20px;margin-top:20px;border:3px solid #ccc;}
+.norecord{text-align:center;margin-top:100px;margin-bottom:100px;display:block;}
+.winner td{text-align:center;color:#FFFFFF;}
+.winner td{font-size:16px;padding:2px;font-family:arial;}
+.winner td p{margin:0px;}
+.winner td h2{display:block;font-family:arial;font-size:40px;}
+.winner td h2.cap2{color:#FFFF00;font-size:34px;}
+.winner td h3{margin:10px;padding:5px; background-color:#FFFFFF;color:#333333;font-family:"Courier New", Courier, monospace;border-radius:10px;}
+.winner td.fot{padding-bottom:10px;font-size:20px;line-height:25px;border-top:1px solid #ccc;padding-top:10px;background-color:#F2F2F2;color:#333333;}
+.oneakra{margin-top:20px;}
+.oneakra, .oneakra li{list-style:none;}
+.oneakra li{width:19%;padding:1%;background-color:#F2F2F2;border-radius:10px;border:2px solid #ccc;float:left;margin:1%;}
+.oneakra li div.no{font-size:36px;font-family:impact;}
+.oneakra li div.desp a{text-decoration:none;font-size:12px;font-weight:bold;display:block;margin-top:5px;color:#0000CC;}
+.openakra li{width:45%;}
+.homepage, .homepage li{float:left;}
+.homepage li{margin:5px;border-bottom:1px solid #ccc;float:left;}
+.homepage li span.left{font-size:12px;font-weight:bold;display:block;float:left;width:95px;display:block;padding:5px;}
+.homepage li span.right{font-size:12px;display:block;float:right;display:block;padding:5px;}
+.homepage li span.right span.time{width:70px;text-align:center;}
+.homepage li span.right img{width:16px;margin-left:4px;margin-right:0px;}
+.homepage li span.right a{display:block;width:30px;text-align:center;text-decoration:none;float:right;background-color:#008FBF;;color:#FFFFFF;border-radius:5px;margin-left:5px;margin-top:-5px;}
+.hints{margin-top:10px;margin-bottom:10px;}
+.hints tr td{padding:5px;font-size:13px;}
+.hints tr td a{text-decoration:none;color:#0066FF;font-weight:bold;font-size:12px;}
+.hints tr td a:hover{text-decoration:underline;}
+.search_page tbody tr td{padding:10px;border-bottom:1px solid #ccc;font-size:13px;font-weight:bold;}
+.search_page tbody tr td select {width:150px;height:35px;border:1px solid #ccc;font-size:14px;font-family:arial;}
+.search_page tbody tr td input[type="submit"]{background: url('../extra/horizont.png') repeat-x 0 -931px;
+	padding: 0;
+	font:bold 16px/35px Arial;
+	color:#fff;
+	text-decoration: none;
+	padding:0 7px;
+	height:36px;
+	background: url('../extra/horizont.png') repeat-x 0 -54px;
+	white-space:nowrap;
+	border:1px solid #3366FF;
+	border-radius:5px;
+	width:120px;
+	cursor:pointer;}
+.search_page table.list{margin-top:10px;border:1px solid #ccc;margin-bottom:10px;width:100%;}
+.search_page table.list tr td{font-weight:100;font-size:12px;}
+.search_page table.list tr th{background: url('../extra/horizont.png') repeat-x 0 -931px;
+	padding: 0;
+	font:bold 13px Arial;
+	color:#fff;
+	text-decoration: none;
+	padding:0 3px;
+	height:25px;
+	background: url('../extra/horizont.png') repeat-x 0 -54px;
+	white-space:nowrap;
+	border:1px solid #3366FF;}
+.showlist{border:1px solid #ccc;}
+.showlist td{font-size:13px;}
+.showlist .cap{background-color:#0098CA;color:#FFFFFF;text-align:center;font-size:13px;line-height:25px;}
+.showlist h2{font-size:18px;}
+.showlist td{text-align:center;}
+.search{font-size:13px;text-align:center;border:1px solid #006282;margin-top:20px;}
+.search td{padding:5px;}
+.search .caption td{font-weight:bold; padding:5px; background-color:#006282;color:#FFFFFF;}
+.Swarn{padding:15px; border:3px solid #006282; font-size:24px;text-align:center;font-family:"Courier New", Courier, monospace;margin-top:20px;font-weight:bold;}
+.form-mid{margin-top:15px;}
+ .form-mid tr td input[type="text"],.form-mid tr td select, .form-mid tr td input[type="password"],.form-mid tr td input[type="file"]  {border: 5px solid white; 
+    -webkit-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    -moz-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    padding: 5px;
+    background: rgba(255,255,255,0.5);
+    margin: 0 0 5px 0;
+	border-radius:5px;
+	width:200px;
+	box-sizing: border-box;
+	}
+	.form-mid .submit{background: url('../extra/horizont.png') repeat-x 0 -931px;
+	margin: 0 8px;
+	padding: 0;
+	font:bold 16px/35px Arial;
+	color:#fff;
+	text-decoration: none;
+	padding:0 7px;
+	height:36px;
+	background: url('../extra/horizont.png') repeat-x 0 -54px;
+	white-space:nowrap;
+	border:1px solid #3366FF;
+	border-radius:5px;
+	margin-top:10px;
+	width:120px;
+	cursor:pointer;
+	}
+	.form-mid .error_message{background-color:#FEE4E0;color:#990000;line-height:22px;padding:10px;margin:5px;border:2px solid #990000}
+	.form-mid .error_message p{color:#CC0000;}
+	.form-mid .success_message{background-color:#EFFCC7;color:darkgreen;line-height:22px;padding:10px;margin:5px;border:2px solid darkgreen;}
+	.form-mid .success_message p{color:#009900;}
+	.form-mid .file {border:1px solid #ccc;padding:10px;width:300px;color:#990000;border-radius:10px;cursor:pointer;}
+	
+	@media only screen and (max-width: 800px){
+		.oneakra li
+		{
+			width:45%;
+		}
+		
+		.users
+		{
+			width:26%;
+			float: left;
+			clear: both;
+		}
+		.posting, .users
+		{
+			margin-left: 4%;
+			margin-top: 2%;
+			margin-bottom: 2%;
+		}
+		.posting .morepost a,.posting p span,.posting h1, .posting h1 span
+		{
+			font-size:13px !important;
+		}
+		.users .name
+		{
+			font-size: 9px;
+		}
+		.users .date .day
+		{
+			font-size:34px;
+		}
+		.pagination
+		{
+			width:96% !important;
+			overflow: hidden;
+			margin-left: 0 !important;
+			clear: both;
+		}
+		.last-text
+		{
+			overflow: hidden;
+			clear:both;
+			width: 90%;
+		    margin: 0 auto;
+		}
+		.posting
+		{
+			width:58%;
+			float:left;
+			display: block;
+			overflow:hidden;
+		}
+		.posting img,.photo img,.users .date .month,.users .date .day
+		{
+			width:100%;
+			height:auto;
+		}
+		table, tr, th, td, tbody
+		{
+			display: block;
+		}
+		tr.caption
+    	{
+    	    display:table-row !important;
+    	}
+    	.search td
+    	{
+    	    display:table-cell !important;
+    	}
+		.users .time
+		{
+			font-size:12px;
+		}
+		.pagewidth-tbl
+		{
+			width:98%;
+		}
+		.pagewidth-td
+		{
+			width: 100%;
+		}
+	}
+	@media only screen and (max-width: 600px){
+		.oneakra li
+		{
+			width:92%;
+		}
+	}

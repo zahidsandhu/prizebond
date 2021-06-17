@@ -1,0 +1,418 @@
+	body,html{
+			height: 100%;
+			margin: 0;
+			background: #7F7FD5;
+	       background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
+	        background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
+		}
+
+		.chat{
+			margin-top: auto;
+			margin-bottom: auto;
+		}
+		.custom-card{
+			height: 800px;
+			border-radius: 15px !important;
+			background-color: rgba(0,0,0,0.4) !important;
+		}
+		.contacts_body{
+			padding:  0.75rem 0 !important;
+			overflow-y: auto;
+			white-space: nowrap;
+		}
+		.msg_card_body{
+			overflow-y: auto;
+		}
+		.card-header{
+			border-radius: 15px 15px 0 0 !important;
+			border-bottom: 0 !important;
+		}
+	 .card-footer{
+		border-radius: 0 0 15px 15px !important;
+			border-top: 0 !important;
+	}
+		.container{
+			align-content: center;
+		}
+		.search{
+			border-radius: 15px 0 0 15px !important;
+			background-color: rgba(0,0,0,0.3) !important;
+			border:0 !important;
+			color:white !important;
+		}
+		.search:focus{
+		     box-shadow:none !important;
+           outline:0px !important;
+		}
+		.type_msg{
+			background-color: rgba(0,0,0,0.3) !important;
+			border:0 !important;
+			color:white !important;
+			height: 60px !important;
+			overflow-y: auto;
+		}
+			.type_msg:focus{
+		     box-shadow:none !important;
+           outline:0px !important;
+		}
+		.attach_btn{
+	border-radius: 15px 0 0 15px !important;
+	background-color: rgba(0,0,0,0.3) !important;
+			border:0 !important;
+			color: white !important;
+			cursor: pointer;
+		}
+		.send_btn{
+	border-radius: 0 15px 15px 0 !important;
+	background-color: rgba(0,0,0,0.3) !important;
+			border:0 !important;
+			color: white !important;
+			cursor: pointer;
+		}
+		.search_btn{
+			border-radius: 0 15px 15px 0 !important;
+			background-color: rgba(0,0,0,0.3) !important;
+			border:0 !important;
+			color: white !important;
+			cursor: pointer;
+		}
+		.contacts{
+			list-style: none;
+			padding: 0;
+		}
+		.contacts li{
+			width: 100% !important;
+			padding: 5px 10px;
+			margin-bottom: 15px !important;
+		}
+	.active{
+			background-color: rgba(0,0,0,0.3);
+	}
+		.user_img{
+			height: 70px;
+			width: 70px;
+			border:1.5px solid #f5f6fa;
+		
+		}
+		.user_img_msg{
+			height: 40px;
+			width: 40px;
+			border:1.5px solid #f5f6fa;
+		
+		}
+	.img_cont{
+			position: relative;
+			height: 70px;
+			width: 70px;
+	}
+	.img_cont_msg{
+			height: 40px;
+			width: 40px;
+	}
+	.online_icon{
+		position: absolute;
+		height: 15px;
+		width:15px;
+		background-color: #4cd137;
+		border-radius: 50%;
+		bottom: 0.2em;
+		right: 0.4em;
+		border:1.5px solid white;
+	}
+	.offline{
+		background-color: #c23616 !important;
+	}
+	.user_info{
+		margin-top: auto;
+		margin-bottom: auto;
+		margin-left: 15px;
+	}
+	.user_info span{
+		font-size: 20px;
+		color: white;
+	}
+	.user_info p{
+	font-size: 10px;
+	color: rgba(255,255,255,0.6);
+	}
+	.video_cam{
+		margin-left: 50px;
+		margin-top: 5px;
+	}
+	.video_cam span{
+		color: white;
+		font-size: 20px;
+		cursor: pointer;
+		margin-right: 20px;
+	}
+	.msg_cotainer{
+		margin-top: auto;
+		margin-bottom: auto;
+		margin-left: 10px;
+		border-radius: 25px;
+		background-color: #82ccdd;
+		padding: 10px;
+		position: relative;
+	}
+	.msg_cotainer_send{
+		margin-top: auto;
+		margin-bottom: auto;
+		margin-right: 10px;
+		border-radius: 25px;
+		background-color: #78e08f;
+		padding: 10px;
+		position: relative;
+	}
+	.msg_time{
+		/*position: absolute;*/
+		left: 0;
+		bottom: -15px;
+		color:black !important;
+		/*color: rgba(255,255,255,0.5);*/
+		font-size: 10px;
+	}
+	.msg_time_send{
+		/*position: absolute;*/
+		right:0;
+		bottom: -15px;
+		color: black;
+		font-size: 10px;
+	}
+	.msg_head{
+		position: relative;
+	}
+	#action_menu_btn{
+		position: absolute;
+		right: 10px;
+		top: 10px;
+		color: white;
+		cursor: pointer;
+		font-size: 20px;
+	}
+	.action_menu{
+		z-index: 1;
+		position: absolute;
+		padding: 15px 0;
+		background-color: rgba(0,0,0,0.5);
+		color: white;
+		border-radius: 15px;
+		top: 30px;
+		right: 15px;
+		display: none;
+	}
+	.action_menu ul{
+		list-style: none;
+		padding: 0;
+	margin: 0;
+	}
+	.action_menu ul li{
+		width: 100%;
+		padding: 10px 15px;
+		margin-bottom: 5px;
+	}
+	.action_menu ul li i{
+		padding-right: 10px;
+	
+	}
+	.action_menu ul li:hover{
+		cursor: pointer;
+		background-color: rgba(0,0,0,0.2);
+	}
+	.datepicker.datepicker-dropdown.dropdown-menu.datepicker-orient-left.datepicker-orient-top {
+    top: 296px !important;
+}
+.card-body.self-style-card-body {
+    margin-top: -40px;
+}
+	@media(max-width: 1024px){
+	    .card .card-body {
+    overflow: auto;
+    width: 736px;
+}
+	}
+	@media(max-width: 768px){
+	    .card-body.self-style-card-body {
+    overflow: auto;
+    width: 728px;
+}
+	    .row.self-row-style {
+    width: 150px;
+}
+	    .col-md-12.grid-margin.stretch-card.self-grid-margin-card {
+    margin-bottom: 8px;
+}
+	    img.posting-image-self-style {
+    width: 277px;
+    height: 235px;
+    margin-bottom: 8px;
+}
+	.datepicker.datepicker-dropdown.dropdown-menu.datepicker-orient-left.datepicker-orient-top {
+    top: 150px !important;
+}
+	    
+	    .self-card-style{
+	        width:50% !important;
+	        min-width: 0% !important;
+	    }
+	    .self-input-style{
+	        margin-bottom: 10px;
+	    }
+	    .self-form-style{
+	        width: 467px;
+	    }
+	    .datepicker.datepicker-dropdown.dropdown-menu.datepicker-orient-left.datepicker-orient-top{
+	        margin-top:100px !important;
+	        width: 200px;
+    padding-left: 15px;
+	    }
+.datepicker.datepicker-dropdown.dropdown-menu.datepicker-orient-left.datepicker-orient-bottom {
+    margin-top: -114px;
+    width: 200px;
+    padding-left: 15px;
+    }
+	    .card .card-body{
+	        overflow: auto;
+                width: 720px;
+	    }
+	    /*.self-style-card-body{*/
+	    /*    overflow: auto !important;*/
+     /*       width: 722px !important;*/
+	    /*}*/
+	    textarea#list {
+    width: 200px;
+    height: 168px;
+    /*margin-right: 25px;*/
+        }
+        input#f {
+    margin-left: 26px;
+    margin-bottom: 10px;
+        }
+        input#f_a {
+    margin-bottom: 10px;
+    width: 105px;
+        }
+        input#s {
+    margin-left: 5px;
+    margin-bottom: 10px;
+    width: 105px;
+        }
+        input#s_a {
+    width: 105px;
+        }
+}
+	@media(max-width: 576px){
+	    .card .card-body{
+    	    overflow:auto;
+    	    width: 377px;
+    	} 
+	    textarea#list {
+    width: 220px;
+    height: 168px;
+    /*margin-right: 10px;*/
+        }
+	.contacts_card{
+		margin-bottom: 15px !important;
+	}
+		.self-sidebar-style{
+	        background-color: #141623;
+	        z-index: 9999;
+	}
+	}
+		@media(max-width: 375px){
+		    .card .card-body {
+    overflow: auto;
+    width: 327px;
+}
+		}
+	@media(max-width: 344px){
+	    textarea#list {
+    width: 220px;
+    height: 168px;
+    /*margin-right: 32px;*/
+        }
+	
+	.self-sidebar-style{
+	        background-color: #141623;
+	        z-index: 9999;
+	}
+	.navbar{
+	    background-color:#141623;
+	}
+	
+	}
+	@media(max-width: 342px){
+	    .row.self-vip-row-style {
+    margin-top: 47px;
+}
+	     .col-md-12.grid-margin.stretch-card.self-grid-margin-card {
+    margin-bottom: 36px;
+}
+	    .row.self-row-style {
+	width: 295px !important;
+    overflow: auto;
+    margin-top: 33px;
+    margin-bottom: -25px;
+    /* width: 115px !important; */
+}
+	    td.action-td {
+    padding-right: 5px;
+}
+	    textarea#list {
+    width: 220px;
+    height: 168px;
+    /*margin-right: 20px;*/
+        }
+	    .self-sidebar-style{
+	        background-color: #141623;
+	        z-index: 9999;
+	}
+    	.navbar .navbar-menu-wrapper{
+    	    margin-bottom:10px;
+    	}
+    	.d-flex .page-header .loader-demo-box .navbar .navbar-menu-wrapper .navbar-nav .nav-item.dropdown .dropdown-menu.navbar-dropdown .dropdown-item{
+    	    padding-bottom: 74px;
+    	}
+    	.navbar .navbar-menu-wrapper .navbar-nav .nav-item.dropdown{
+    	    padding-bottom:130px;
+    	}
+    	.navbar .navbar-menu-wrapper .navbar-toggler.navbar-toggler-right{
+    	    padding-bottom: 147px;
+    	}
+    	.main-panel{
+    	    padding-top:10px;
+    	}
+    	.self-table-style{
+    	    width:240px;
+    	    /*background-color:red;*/
+    	    overflow:auto;
+    	}
+    table{
+    	    width:15% !important;
+    	    /*border:none;*/
+    	}
+    	dt{
+    	    padding:0px !important;
+    	    width:15% !important;
+    	}
+    	input{
+    	    width:126px !important;
+    	}
+     .self-card-body {
+    	    max-width: 220px;
+            overflow: auto;
+            min-width:20px;
+            background-color:#141623;
+    	}
+    	.card .card-body{
+    	    overflow:auto;
+    	    width: 290px;
+    	} 
+    	.self-style-input{
+    	    width:209px !important;
+    	}
+    	.navbar .navbar-menu-wrapper .navbar-nav .nav-item.dropdown .navbar-dropdown{
+    	    left: -25px;
+    	}
+    	    
+    }
+	
